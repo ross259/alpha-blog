@@ -1,2 +1,107 @@
+$navbar-default-bg: #99cccc;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+    float:left;
+    font-size: 1.7em;
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#logo:hover {
+    color: #fff;
+    text-decoration:none;
+}
+
+.navbar .nav > li > a {
+    color:#fff;
+}
+
+.center {
+    text-align:center;
+}
+
+.jumbotron {
+    background-image: asset-url('lingerie.png');
+    background-size:cover;
+    height:620px;
+}
+
+.jumbotron h1 {
+    color: #669999;
+    text-align: center;
+    letter-spacing: -1px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.btn-xlarge{
+    font-size: 1.5em;
+    background-color:#99cccc;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border-color: #669999;
+}
+
+.btn-xlarge:hover {
+    background-color:#669999;
+    border-color:#669999;
+}
+
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #669999;
+    color: #99cccc;
+    //background-color: #99cccc;
+    height: 35px;
+    //text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #99cccc;
+}
+footer a:hover{
+    text-decoration: none;
+    color: #669999;
+}
+footer small {
+    float: left;
+}
+footer ul{
+    float: right;
+    list-style: none;
+}
+footer ul li {
+    float: left;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
