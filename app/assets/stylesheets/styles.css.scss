@@ -3,6 +3,25 @@ $navbar-default-bg: #99cccc;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+@font-face{
+	font-family: lobster;
+	src: asset-url('LobsterTwo-BoldItalic.otf');
+}
+
+.gradient {
+    background: linear-gradient(#99cccc, #669999);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #669999;
+}
+
 #logo {
     float:left;
     font-size: 1.7em;
@@ -10,6 +29,7 @@ $navbar-default-bg: #99cccc;
     text-transform: uppercase;
     letter-spacing: -1px;
     font-weight: bold;
+    text-shadow: 2px 2px 3px #669999;
 }
 
 #logo:hover {
@@ -34,17 +54,29 @@ $navbar-default-bg: #99cccc;
 .jumbotron h1 {
     color: #669999;
     text-align: center;
-    letter-spacing: -1px;
+    //letter-spacing: -1px;
     font-weight: bolder;
-    text-transform: uppercase;
+    //font-family: lobster;
+    text-transform: capitalize;
+   //-webkit-text-stroke: 2px #669999;
+    //-webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 2px #FFFFFF;
+}
+h1 {
+    font-family:lobster;
 }
 
 .btn-xlarge{
     font-size: 1.5em;
     background-color:#99cccc;
     font-weight: bolder;
-    text-transform: uppercase;
+    
     border-color: #669999;
+    //font-family: lobster;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px #669999;
+    //-webkit-text-stroke: 1px #669999;
+    //-webkit-text-fill-color: transparent;
 }
 
 .btn-xlarge:hover {
@@ -81,8 +113,20 @@ footer ul li {
     float: left;
     margin-left: 15px;
 }
-
-
+@media (min-width: 100px){
+.centervert{
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+}
+@media (min-width: 600px){
+.centervert{
+    position: relative;
+    top: 16%;
+    transform: translateY(-50%);
+}
+}
 
 
 

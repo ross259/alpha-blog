@@ -6,6 +6,10 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+#Ross Added these two configurations to get custom fonts to work. They can be removed if custom fonts continue to work.
+ #config.assets.enabled = true  
+ #config.assets.paths << "#{Rails.root}/app/assets/fonts" 
+
 module AlphaBlog
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
