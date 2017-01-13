@@ -26,6 +26,15 @@ $navbar-default-bg: #99cccc;
     //border-top:1px solid #669999;
     padding-top:5px;
 }
+.article-title{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.article-body{
+    border-bottom:1px solid #CCCCCC;
+    padding-top:15px;
+    padding-bottom:15px;
+}
 
 #logo {
     float:left;
